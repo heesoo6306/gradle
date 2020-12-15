@@ -19,6 +19,7 @@ public class UserService {
         for (User user : this.userRepository.findAll()) {
             System.out.println(user);
         }
+
     }
 
     public void initializeUsers() {
